@@ -1,0 +1,27 @@
+*{
+  margin: 0px;
+}
+
+.dia{
+  height: 100vh;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.noite{
+  height: 100vh;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn{
+  
+  top:0;
+}
+button{
+  width: 100px;
+  height: 80px;
+
+}
