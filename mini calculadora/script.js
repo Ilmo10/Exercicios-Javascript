@@ -4,22 +4,21 @@ function calcular(){
   let valor2 = parseFloat(document.getElementById('valor2').value)
 
   let resultado = document.getElementById('resultado')
+
+  
+  
   if(operador === ''){
-    alert('Seu Burro')
+    alert('É necessario colocar um operador')
   } else if(operador === '*'){
     resultado.innerHTML = valor1 * valor2
   } else if(operador === '/'){
-    resultado.innerHTML = valor1 / valor2
+    resultado.innerHTML = (valor1 / valor2).toFixed(4)
   }else if(operador === '-'){
     resultado.innerHTML = valor1 - valor2
   }else if(operador === '+'){
     resultado.innerHTML = valor1 + valor2
   }else{
-    alert('Atenção! è necessario esolher um operador valido.')
+    alert('Atenção! è necessario escolher um operador valido.')
   }
-
+  
 }
-
-
-
-
