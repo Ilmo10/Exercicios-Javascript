@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content{
+  width: 300px;
+  height: 300px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.pesquisa{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  margin-bottom: 30px;
+}
+input{
+  width: 300px;
+ display: flex;
+ height: 40px;
+ font-size: medium;
+ font-weight: bold;
+ margin-bottom: 45px;
+}
+button{
+  width: 200px;
+  height: 60px;
+  background: #DCDCDC;
+  border: none;
+}
+button:hover{
+  background: #5F9EA0;
+  border: 1px solid #000 ;
+}
+#endereco{
+  border: 1px solid #ccc;
+  padding: 5px;
+}

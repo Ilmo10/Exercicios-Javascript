@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title> buscar Cep</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="estilos.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+      <div class="container">
+          <div class="content">
+            <div class="pesquisa">
+              <input type="text" name="cel" placeholder="Digite o cep aqui" id="cep">
+              <button onclick="buscarCep()">Buscar</button>
+            </div>
+            <div id="loading"></div>
+            <div id="endereco">
+            </div>
+            
+          </div>
+      </div>
+      <script src="correios.js"></script>
+    </body>
+</html>
